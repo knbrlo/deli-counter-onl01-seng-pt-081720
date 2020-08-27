@@ -13,5 +13,5 @@ end
 
 def take_a_number(array, name)
   array << name
-  puts "Welcome, #{array[-1]}. You are number #{array.size-1} in line."
+  puts "Welcome, #{array[-1]}. You are number #{array.size} in line."
 end
