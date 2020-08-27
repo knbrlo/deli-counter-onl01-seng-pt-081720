@@ -12,7 +12,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  array.push(name)
+  array << name
   array.each do
     puts "Hello!"
   end
