@@ -14,7 +14,7 @@ end
 def take_a_number(array, name)
   array << name
   array.each_with_index do |person, index|
-    puts "Hello! #{person}"
+    puts "Hello! #{person}. You are number #{index} in line."
   end
 
 end
