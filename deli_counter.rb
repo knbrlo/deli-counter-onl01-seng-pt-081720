@@ -13,8 +13,8 @@ end
 
 def take_a_number(array, name)
   array << name
-  array.each do
-    puts "Hello!"
+  array.each_with_index do |person, index|
+    puts "Hello! #{person}"
   end
 
 end
