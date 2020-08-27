@@ -12,11 +12,9 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  array.push(name)
-  count = 0
-  while array.size > count
-    puts "Welcome, #{array[count]}. You are number #{count+1} in line."
-    count += 1
+  array = array.push(name)
+  array.each do
+    puts "Hello!"
   end
 
 end
